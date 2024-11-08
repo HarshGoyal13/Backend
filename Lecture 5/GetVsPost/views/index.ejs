@@ -1,0 +1,54 @@
+
+
+<%- include('./partials/header') %>
+
+<h1>GET FORM</h1>
+
+<form action="/user" method="GET">
+
+    <div class="form-group">
+
+        <label for="name">Name</label>
+        <input type="text" name="username" id="name">
+
+    </div>
+
+    <div class="form-group">
+
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age">
+
+    </div>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<br>
+
+<h1>POST FORM</h1>
+
+<form action="/user" method="POST">
+
+    <div class="form-group">
+
+        <label for="name">Name</label>
+        <input type="text" name="username" id="name">
+
+    </div>
+
+    <div class="form-group">
+
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age">
+
+    </div>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+
+
+
+<%- include('./partials/footer') %>
